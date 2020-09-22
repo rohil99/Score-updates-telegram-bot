@@ -7,7 +7,7 @@ bot=telebot.TeleBot(ENTER YOUR BOT TOKEN HERE)
 
 @bot.message_handler(commands=['getscore','start'])
 def greeting_message(message):
-    bot.reply_to(message, "Here u can get the IPL score updates\n\nType /score to get current match score updates")
+    bot.reply_to(message, "Here u can get the live cricket matches score updates\n\nType /score to get current match score updates")
 
 @bot.message_handler(commands=['score'])
 def send_score(message):

@@ -1,15 +1,7 @@
-aiohttp==3.6.2
-asgiref==3.2.10
-async-timeout==3.0.1
-asyncio==3.4.3
-attrs==20.2.0
 beautifulsoup4==4.9.1
 bs4==0.0.1
 pprintpp==0.4.0
-psycopg2==2.8.6
-pyRFC3339==1.1
 pyTelegramBotAPI==3.7.3
-pytz==2020.1
 requests==2.7.0
 soupsieve==2.0.1
 telebot==0.0.3

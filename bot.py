@@ -2,7 +2,7 @@ import telebot
 from bs4 import BeautifulSoup
 import requests
 from pprint import pprint
-bot=telebot.TeleBot(ENTER YOUR BOT KEY HERE)
+bot=telebot.TeleBot(ENTER YOUR BOT TOKEN HERE)
 
 
 @bot.message_handler(commands=['getscore','start'])

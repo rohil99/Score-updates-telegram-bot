@@ -18,9 +18,7 @@ def send_score(message):
     pprint(soup)
     result=soup.find_all('description')
     for match in result:
-        l.append(match)
-    for i in l:
-        bot.reply_to(message, i)
+        bot.reply_to(message, match)
     
 @bot.message_handler(func=lambda message:True)
 def send_default(message):
